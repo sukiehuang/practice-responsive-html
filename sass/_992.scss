@@ -1,0 +1,14 @@
+@import "mixin";
+
+.gallery{
+  .grid3{
+    @include flex-warp;
+    .grid{
+      width: 100%;
+      .gridImg{
+        width: 30%;
+        float: left;
+      }
+    }
+  }
+}
